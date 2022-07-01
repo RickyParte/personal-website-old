@@ -1,0 +1,40 @@
+.progress .progress-bar
+{
+    background-color: red;
+}
+.bi-github:hover
+{
+    color: rgb(4, 143, 4); 
+}
+.bi-phone:hover
+{
+    color: rgb(243, 243, 243); 
+}
+.bi-envelope:hover
+{
+    color: rgb(202, 236, 5); 
+}
+.bi-file-earmark-person-fill:hover
+{
+    color: rgb(11, 24, 214); 
+}
+.bi-instagram:hover
+{
+    color: rgb(236, 5, 120); 
+}
+.bi-linkedin:hover
+{
+    color: rgb(4, 0, 243); 
+}
+.check:hover {
+    transform: scale(1.01); 
+}
+.getcard:hover
+{
+    transform: scale(1.01); 
+}
+.nav-item:hover
+{
+    transform: scale(1.20);
+}
+
