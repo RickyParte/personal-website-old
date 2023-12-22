@@ -7,6 +7,24 @@
     <title>Ricky Parte</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <style>
+        .circular-container {
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circular-container img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+    </style>
 <body style="background-color: black;">
 
 <marquee direction="right" class="mt-5 pt-4 fs-4 fw-bold mb-1" style=" color: rgb(255, 248, 248);">Welcome To My Website..</marquee>
@@ -53,7 +71,7 @@
 <div class="container fade-in" id="about">
     <div class="row">
         <div class="col-md-4">
-            <div class="card getcard rounded border-primary" style="background-color: black;">
+             <div class="card getcard rounded border-primary circular-container">
                 <img src="Ricky.jpg" class="img-fluid rounded-start" alt="...">
             </div>
         </div>
